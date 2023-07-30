@@ -1,0 +1,54 @@
+header {
+	display: flex;
+	background: beige;
+	padding: 20px;
+	align-items: baseline;
+}
+
+header h1 a {
+	color: black;
+}
+
+
+body {
+	margin: 0;
+}
+  
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: gray;
+	overflow: hidden;
+}
+
+.container img {
+    margin: 20px;
+    padding: 20px;
+    width: calc(33% - 80px);
+    background-color: lightpink;
+}
+
+.container img:hover {
+	background-color: yellow;
+}
+  
+
+.menu a {
+    padding: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: indigo;
+}
+
+.menu a:link {
+    color: green;
+}
+
+.menu a:visited {
+    color: gray;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
