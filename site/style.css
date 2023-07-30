@@ -1,0 +1,67 @@
+header {
+	display: flex;
+    justify-content: center;
+	background: gray;
+	padding: 20px;
+}
+
+main {
+	background: bisque;
+	height: 500px;
+	display: flex;
+}
+
+main p {
+	text-align: center
+}
+
+main div.right {
+	width: 20%;
+    background-color: darkseagreen;
+}
+
+main div.main {
+	width: 80%;
+    background-color: bisque;
+}
+
+main div.main-container {
+    height: calc(45%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .main-item {
+	background-color: yellow;
+    margin: 20px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .row {
+	width: 50%;
+}
+
+main .bottom {
+	height: 25%;
+}
+
+
+.footer-container {
+	display: flex;
+	justify-content: space-evenly;
+	background: gray;
+	height: 200px;
+	overflow: hidden;
+}
+
+.footer-container div {
+	text-align: center;
+	width: calc((100% / 5) - 20px);
+	background: white;
+	margin: 20px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
